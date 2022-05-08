@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B622B8EC2824A11A0077E9D5 /* lobby.png in Resources */ = {isa = PBXBuildFile; fileRef = B622B8D82824A11A0077E9D5 /* lobby.png */; };
+		B622B8ED2824A11A0077E9D5 /* battlebg.png in Resources */ = {isa = PBXBuildFile; fileRef = B622B8D92824A11A0077E9D5 /* battlebg.png */; };
+		B622B8EE2824A11A0077E9D5 /* bgimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B622B8DA2824A11A0077E9D5 /* bgimage.jpg */; };
+		B622B8EF2824A11A0077E9D5 /* waku.png in Resources */ = {isa = PBXBuildFile; fileRef = B622B8DB2824A11A0077E9D5 /* waku.png */; };
+		B622B8F02824A11A0077E9D5 /* gold_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B622B8DC2824A11A0077E9D5 /* gold_button.png */; };
+		B622B8F12824A11A0077E9D5 /* yusya.png in Resources */ = {isa = PBXBuildFile; fileRef = B622B8DD2824A11A0077E9D5 /* yusya.png */; };
+		B622B8F22824A11A0077E9D5 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = B622B8DE2824A11A0077E9D5 /* monster.png */; };
+		B622B8F32824A11A0077E9D5 /* TechMonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B622B8E02824A11A0077E9D5 /* TechMonManager.swift */; };
+		B622B8F42824A11A0077E9D5 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = B622B8E12824A11A0077E9D5 /* Character.swift */; };
+		B622B8F52824A11A0077E9D5 /* SE_fanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B622B8E32824A11A0077E9D5 /* SE_fanfare.mp3 */; };
+		B622B8F62824A11A0077E9D5 /* BGM_battle001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B622B8E42824A11A0077E9D5 /* BGM_battle001.mp3 */; };
+		B622B8F72824A11A0077E9D5 /* SE_fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B622B8E52824A11A0077E9D5 /* SE_fire.mp3 */; };
+		B622B8F82824A11A0077E9D5 /* SE_attack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B622B8E62824A11A0077E9D5 /* SE_attack.mp3 */; };
+		B622B8F92824A11A0077E9D5 /* SE_gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B622B8E72824A11A0077E9D5 /* SE_gameover.mp3 */; };
+		B622B8FA2824A11A0077E9D5 /* SE_charge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B622B8E82824A11A0077E9D5 /* SE_charge.mp3 */; };
+		B622B8FB2824A11A0077E9D5 /* lobby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B622B8E92824A11A0077E9D5 /* lobby.mp3 */; };
+		B622B8FC2824A11A0077E9D5 /* misaki_gothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B622B8EB2824A11A0077E9D5 /* misaki_gothic.ttf */; };
+		B622B900282549960077E9D5 /* block.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B622B8FF282549960077E9D5 /* block.jpeg */; };
+		B622B90228254A640077E9D5 /* fantasy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B622B90128254A640077E9D5 /* fantasy.mp3 */; };
+		B6748C9D2823F9C60014A3DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6748C9C2823F9C60014A3DD /* AppDelegate.swift */; };
+		B6748C9F2823F9C60014A3DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6748C9E2823F9C60014A3DD /* SceneDelegate.swift */; };
+		B6748CA12823F9C60014A3DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6748CA02823F9C60014A3DD /* ViewController.swift */; };
+		B6748CA42823F9C60014A3DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6748CA22823F9C60014A3DD /* Main.storyboard */; };
+		B6748CA62823F9CA0014A3DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6748CA52823F9CA0014A3DD /* Assets.xcassets */; };
+		B6748CA92823F9CA0014A3DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6748CA72823F9CA0014A3DD /* LaunchScreen.storyboard */; };
+		B6748CB42823F9CB0014A3DD /* TechMonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6748CB32823F9CB0014A3DD /* TechMonTests.swift */; };
+		B6748CBE2823F9CB0014A3DD /* TechMonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6748CBD2823F9CB0014A3DD /* TechMonUITests.swift */; };
+		B6748CC02823F9CB0014A3DD /* TechMonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6748CBF2823F9CB0014A3DD /* TechMonUITestsLaunchTests.swift */; };
+		B6748CF62824001C0014A3DD /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6748CF52824001C0014A3DD /* LobbyViewController.swift */; };
+		B6748CF8282400270014A3DD /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6748CF7282400270014A3DD /* BattleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6748CB02823F9CA0014A3DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6748C912823F9C60014A3DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6748C982823F9C60014A3DD;
+			remoteInfo = TechMon;
+		};
+		B6748CBA2823F9CB0014A3DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6748C912823F9C60014A3DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6748C982823F9C60014A3DD;
+			remoteInfo = TechMon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B622B8D82824A11A0077E9D5 /* lobby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lobby.png; sourceTree = "<group>"; };
+		B622B8D92824A11A0077E9D5 /* battlebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battlebg.png; sourceTree = "<group>"; };
+		B622B8DA2824A11A0077E9D5 /* bgimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgimage.jpg; sourceTree = "<group>"; };
+		B622B8DB2824A11A0077E9D5 /* waku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waku.png; sourceTree = "<group>"; };
+		B622B8DC2824A11A0077E9D5 /* gold_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold_button.png; sourceTree = "<group>"; };
+		B622B8DD2824A11A0077E9D5 /* yusya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yusya.png; sourceTree = "<group>"; };
+		B622B8DE2824A11A0077E9D5 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		B622B8E02824A11A0077E9D5 /* TechMonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechMonManager.swift; sourceTree = "<group>"; };
+		B622B8E12824A11A0077E9D5 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		B622B8E32824A11A0077E9D5 /* SE_fanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SE_fanfare.mp3; sourceTree = "<group>"; };
+		B622B8E42824A11A0077E9D5 /* BGM_battle001.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM_battle001.mp3; sourceTree = "<group>"; };
+		B622B8E52824A11A0077E9D5 /* SE_fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SE_fire.mp3; sourceTree = "<group>"; };
+		B622B8E62824A11A0077E9D5 /* SE_attack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SE_attack.mp3; sourceTree = "<group>"; };
+		B622B8E72824A11A0077E9D5 /* SE_gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SE_gameover.mp3; sourceTree = "<group>"; };
+		B622B8E82824A11A0077E9D5 /* SE_charge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SE_charge.mp3; sourceTree = "<group>"; };
+		B622B8E92824A11A0077E9D5 /* lobby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lobby.mp3; sourceTree = "<group>"; };
+		B622B8EB2824A11A0077E9D5 /* misaki_gothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = misaki_gothic.ttf; sourceTree = "<group>"; };
+		B622B8FF282549960077E9D5 /* block.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = block.jpeg; sourceTree = "<group>"; };
+		B622B90128254A640077E9D5 /* fantasy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fantasy.mp3; sourceTree = "<group>"; };
+		B6748C992823F9C60014A3DD /* TechMon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechMon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6748C9C2823F9C60014A3DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6748C9E2823F9C60014A3DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B6748CA02823F9C60014A3DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6748CA32823F9C60014A3DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6748CA52823F9CA0014A3DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6748CA82823F9CA0014A3DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6748CAA2823F9CA0014A3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6748CAF2823F9CA0014A3DD /* TechMonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechMonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6748CB32823F9CB0014A3DD /* TechMonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechMonTests.swift; sourceTree = "<group>"; };
+		B6748CB92823F9CB0014A3DD /* TechMonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechMonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6748CBD2823F9CB0014A3DD /* TechMonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechMonUITests.swift; sourceTree = "<group>"; };
+		B6748CBF2823F9CB0014A3DD /* TechMonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechMonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6748CF52824001C0014A3DD /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
+		B6748CF7282400270014A3DD /* BattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6748C962823F9C60014A3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6748CAC2823F9CA0014A3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6748CB62823F9CB0014A3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B622B8D62824A11A0077E9D5 /* TechMon_Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B622B8D72824A11A0077E9D5 /* Images */,
+				B622B8DF2824A11A0077E9D5 /* Models */,
+				B622B8E22824A11A0077E9D5 /* Sounds */,
+				B622B8EA2824A11A0077E9D5 /* Fonts */,
+			);
+			path = TechMon_Resource;
+			sourceTree = "<group>";
+		};
+		B622B8D72824A11A0077E9D5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B622B8FF282549960077E9D5 /* block.jpeg */,
+				B622B8D82824A11A0077E9D5 /* lobby.png */,
+				B622B8D92824A11A0077E9D5 /* battlebg.png */,
+				B622B8DA2824A11A0077E9D5 /* bgimage.jpg */,
+				B622B8DB2824A11A0077E9D5 /* waku.png */,
+				B622B8DC2824A11A0077E9D5 /* gold_button.png */,
+				B622B8DD2824A11A0077E9D5 /* yusya.png */,
+				B622B8DE2824A11A0077E9D5 /* monster.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B622B8DF2824A11A0077E9D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B622B8E02824A11A0077E9D5 /* TechMonManager.swift */,
+				B622B8E12824A11A0077E9D5 /* Character.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B622B8E22824A11A0077E9D5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B622B8E32824A11A0077E9D5 /* SE_fanfare.mp3 */,
+				B622B8E42824A11A0077E9D5 /* BGM_battle001.mp3 */,
+				B622B8E52824A11A0077E9D5 /* SE_fire.mp3 */,
+				B622B8E62824A11A0077E9D5 /* SE_attack.mp3 */,
+				B622B8E72824A11A0077E9D5 /* SE_gameover.mp3 */,
+				B622B8E82824A11A0077E9D5 /* SE_charge.mp3 */,
+				B622B8E92824A11A0077E9D5 /* lobby.mp3 */,
+				B622B90128254A640077E9D5 /* fantasy.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		B622B8EA2824A11A0077E9D5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B622B8EB2824A11A0077E9D5 /* misaki_gothic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B6748C902823F9C60014A3DD = {
+			isa = PBXGroup;
+			children = (
+				B6748C9B2823F9C60014A3DD /* TechMon */,
+				B6748CB22823F9CB0014A3DD /* TechMonTests */,
+				B6748CBC2823F9CB0014A3DD /* TechMonUITests */,
+				B6748C9A2823F9C60014A3DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6748C9A2823F9C60014A3DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6748C992823F9C60014A3DD /* TechMon.app */,
+				B6748CAF2823F9CA0014A3DD /* TechMonTests.xctest */,
+				B6748CB92823F9CB0014A3DD /* TechMonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6748C9B2823F9C60014A3DD /* TechMon */ = {
+			isa = PBXGroup;
+			children = (
+				B622B8D62824A11A0077E9D5 /* TechMon_Resource */,
+				B6748C9C2823F9C60014A3DD /* AppDelegate.swift */,
+				B6748C9E2823F9C60014A3DD /* SceneDelegate.swift */,
+				B6748CA02823F9C60014A3DD /* ViewController.swift */,
+				B6748CA22823F9C60014A3DD /* Main.storyboard */,
+				B6748CA52823F9CA0014A3DD /* Assets.xcassets */,
+				B6748CA72823F9CA0014A3DD /* LaunchScreen.storyboard */,
+				B6748CAA2823F9CA0014A3DD /* Info.plist */,
+				B6748CF52824001C0014A3DD /* LobbyViewController.swift */,
+				B6748CF7282400270014A3DD /* BattleViewController.swift */,
+			);
+			path = TechMon;
+			sourceTree = "<group>";
+		};
+		B6748CB22823F9CB0014A3DD /* TechMonTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6748CB32823F9CB0014A3DD /* TechMonTests.swift */,
+			);
+			path = TechMonTests;
+			sourceTree = "<group>";
+		};
+		B6748CBC2823F9CB0014A3DD /* TechMonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6748CBD2823F9CB0014A3DD /* TechMonUITests.swift */,
+				B6748CBF2823F9CB0014A3DD /* TechMonUITestsLaunchTests.swift */,
+			);
+			path = TechMonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6748C982823F9C60014A3DD /* TechMon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6748CC32823F9CB0014A3DD /* Build configuration list for PBXNativeTarget "TechMon" */;
+			buildPhases = (
+				B6748C952823F9C60014A3DD /* Sources */,
+				B6748C962823F9C60014A3DD /* Frameworks */,
+				B6748C972823F9C60014A3DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechMon;
+			productName = TechMon;
+			productReference = B6748C992823F9C60014A3DD /* TechMon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6748CAE2823F9CA0014A3DD /* TechMonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6748CC62823F9CB0014A3DD /* Build configuration list for PBXNativeTarget "TechMonTests" */;
+			buildPhases = (
+				B6748CAB2823F9CA0014A3DD /* Sources */,
+				B6748CAC2823F9CA0014A3DD /* Frameworks */,
+				B6748CAD2823F9CA0014A3DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6748CB12823F9CA0014A3DD /* PBXTargetDependency */,
+			);
+			name = TechMonTests;
+			productName = TechMonTests;
+			productReference = B6748CAF2823F9CA0014A3DD /* TechMonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6748CB82823F9CB0014A3DD /* TechMonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6748CC92823F9CB0014A3DD /* Build configuration list for PBXNativeTarget "TechMonUITests" */;
+			buildPhases = (
+				B6748CB52823F9CB0014A3DD /* Sources */,
+				B6748CB62823F9CB0014A3DD /* Frameworks */,
+				B6748CB72823F9CB0014A3DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6748CBB2823F9CB0014A3DD /* PBXTargetDependency */,
+			);
+			name = TechMonUITests;
+			productName = TechMonUITests;
+			productReference = B6748CB92823F9CB0014A3DD /* TechMonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6748C912823F9C60014A3DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B6748C982823F9C60014A3DD = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					B6748CAE2823F9CA0014A3DD = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B6748C982823F9C60014A3DD;
+					};
+					B6748CB82823F9CB0014A3DD = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B6748C982823F9C60014A3DD;
+					};
+				};
+			};
+			buildConfigurationList = B6748C942823F9C60014A3DD /* Build configuration list for PBXProject "TechMon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6748C902823F9C60014A3DD;
+			productRefGroup = B6748C9A2823F9C60014A3DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6748C982823F9C60014A3DD /* TechMon */,
+				B6748CAE2823F9CA0014A3DD /* TechMonTests */,
+				B6748CB82823F9CB0014A3DD /* TechMonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6748C972823F9C60014A3DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B622B8F12824A11A0077E9D5 /* yusya.png in Resources */,
+				B622B8EE2824A11A0077E9D5 /* bgimage.jpg in Resources */,
+				B622B8EF2824A11A0077E9D5 /* waku.png in Resources */,
+				B622B8F52824A11A0077E9D5 /* SE_fanfare.mp3 in Resources */,
+				B622B900282549960077E9D5 /* block.jpeg in Resources */,
+				B622B8EC2824A11A0077E9D5 /* lobby.png in Resources */,
+				B622B8F02824A11A0077E9D5 /* gold_button.png in Resources */,
+				B622B90228254A640077E9D5 /* fantasy.mp3 in Resources */,
+				B622B8F82824A11A0077E9D5 /* SE_attack.mp3 in Resources */,
+				B6748CA92823F9CA0014A3DD /* LaunchScreen.storyboard in Resources */,
+				B622B8FB2824A11A0077E9D5 /* lobby.mp3 in Resources */,
+				B6748CA62823F9CA0014A3DD /* Assets.xcassets in Resources */,
+				B622B8FC2824A11A0077E9D5 /* misaki_gothic.ttf in Resources */,
+				B622B8F92824A11A0077E9D5 /* SE_gameover.mp3 in Resources */,
+				B622B8ED2824A11A0077E9D5 /* battlebg.png in Resources */,
+				B622B8F62824A11A0077E9D5 /* BGM_battle001.mp3 in Resources */,
+				B622B8FA2824A11A0077E9D5 /* SE_charge.mp3 in Resources */,
+				B622B8F72824A11A0077E9D5 /* SE_fire.mp3 in Resources */,
+				B622B8F22824A11A0077E9D5 /* monster.png in Resources */,
+				B6748CA42823F9C60014A3DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6748CAD2823F9CA0014A3DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6748CB72823F9CB0014A3DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6748C952823F9C60014A3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B622B8F32824A11A0077E9D5 /* TechMonManager.swift in Sources */,
+				B6748CF8282400270014A3DD /* BattleViewController.swift in Sources */,
+				B622B8F42824A11A0077E9D5 /* Character.swift in Sources */,
+				B6748CA12823F9C60014A3DD /* ViewController.swift in Sources */,
+				B6748C9D2823F9C60014A3DD /* AppDelegate.swift in Sources */,
+				B6748C9F2823F9C60014A3DD /* SceneDelegate.swift in Sources */,
+				B6748CF62824001C0014A3DD /* LobbyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6748CAB2823F9CA0014A3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6748CB42823F9CB0014A3DD /* TechMonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6748CB52823F9CB0014A3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6748CBE2823F9CB0014A3DD /* TechMonUITests.swift in Sources */,
+				B6748CC02823F9CB0014A3DD /* TechMonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6748CB12823F9CA0014A3DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6748C982823F9C60014A3DD /* TechMon */;
+			targetProxy = B6748CB02823F9CA0014A3DD /* PBXContainerItemProxy */;
+		};
+		B6748CBB2823F9CB0014A3DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6748C982823F9C60014A3DD /* TechMon */;
+			targetProxy = B6748CBA2823F9CB0014A3DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6748CA22823F9C60014A3DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6748CA32823F9C60014A3DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6748CA72823F9CA0014A3DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6748CA82823F9CA0014A3DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6748CC12823F9CB0014A3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6748CC22823F9CB0014A3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6748CC42823F9CB0014A3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TechMon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechMon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6748CC52823F9CB0014A3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TechMon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechMon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6748CC72823F9CB0014A3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechMonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechMon.app/TechMon";
+			};
+			name = Debug;
+		};
+		B6748CC82823F9CB0014A3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechMonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechMon.app/TechMon";
+			};
+			name = Release;
+		};
+		B6748CCA2823F9CB0014A3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechMonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechMon;
+			};
+			name = Debug;
+		};
+		B6748CCB2823F9CB0014A3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechMonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechMon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6748C942823F9C60014A3DD /* Build configuration list for PBXProject "TechMon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6748CC12823F9CB0014A3DD /* Debug */,
+				B6748CC22823F9CB0014A3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6748CC32823F9CB0014A3DD /* Build configuration list for PBXNativeTarget "TechMon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6748CC42823F9CB0014A3DD /* Debug */,
+				B6748CC52823F9CB0014A3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6748CC62823F9CB0014A3DD /* Build configuration list for PBXNativeTarget "TechMonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6748CC72823F9CB0014A3DD /* Debug */,
+				B6748CC82823F9CB0014A3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6748CC92823F9CB0014A3DD /* Build configuration list for PBXNativeTarget "TechMonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6748CCA2823F9CB0014A3DD /* Debug */,
+				B6748CCB2823F9CB0014A3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6748C912823F9C60014A3DD /* Project object */;
+}
